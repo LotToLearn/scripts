@@ -1,0 +1,8 @@
+curl https://objectstorage.us-ashburn-1.oraclecloud.com/p/xBy1J9EjNxfuFiCJNSkO2OnMxDeLml6Axdw4U8iGHCfZA0GzoHtFKAKRne_Br06A/n/orasenatdpltintegration01/b/nhorner_bucket/o/CLI_RPMS/krb5-devel-1.15.1-51.0.1.el7_9.x86_64.rpm -O -J -L
+curl https://objectstorage.us-ashburn-1.oraclecloud.com/p/zX5srCvnlVPKlQOifX6bh2Z5SWg0CNZg-S1QJv-5SSWieZfaC-mYy-jgXlpXaWT9/n/orasenatdpltintegration01/b/nhorner_bucket/o/CLI_RPMS/openssl-libs-1.0.2k-24.el7_9.x86_64.rpm -O -J -L
+curl https://objectstorage.us-ashburn-1.oraclecloud.com/p/2MZ7ABVdV59-23qhXqEiwh5KVGkfXmgtVy7nccVq5h56WM-0dpCZGHYDZQdVo2AT/n/orasenatdpltintegration01/b/nhorner_bucket/o/CLI_RPMS/zlib-devel-1.2.7-19.el7_9.x86_64.rpm -O -J -L
+ 
+rpm -i krb5-devel-1.15.1-51.0.1.el7_9.x86_64.rpm
+rpm -i zlib-devel-1.2.7-19.el7_9.x86_64.rpm
+rpm -i openssl-libs-1.0.2k-24.el7_9.x86_64.rpm
+rpm -i openssl-devel-1.0.2k-24.el7_9.x86_64.rpm
